@@ -63,7 +63,8 @@
               "browserTarget": "PotteryInventoryFrontend:build:production"
             },
             "development": {
-              "browserTarget": "PotteryInventoryFrontend:build:development"
+              "browserTarget": "PotteryInventoryFrontend:build:development",
+              "proxyConfig": "src/proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
