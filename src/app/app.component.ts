@@ -21,6 +21,7 @@ interface Item {
 })
 
 export class AppComponent{
+  title: "PotteryInventoryFrontend" | undefined;
   rData?: any;
   iData?: any;
   cols!: Column[];
